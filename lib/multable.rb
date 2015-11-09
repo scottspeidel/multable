@@ -36,7 +36,7 @@ include FixedWidthPrinter
 
   def fill_in_table
     (@dimension - 1).downto(1) do |y|
-      (@dimension - 1).downto(1) do |x|
+      (y).downto(1) do |x|
         multiply_factors_and_store(x,y)
       end
     end
