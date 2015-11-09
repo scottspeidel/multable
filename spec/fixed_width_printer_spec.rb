@@ -24,7 +24,7 @@ describe FixedWidthPrinter do
 
   context "#print_array" do
 
-    it "Should print out '  1 2 3\n' for [nil,1,2,3]" do
+    it "Should print out '  1 2 3 \n' for [nil,1,2,3]" do
       expect {TestPrinter.new.print_array([nil,1,2,3],2)}.to output("  1 2 3 \n").to_stdout
     end
 
