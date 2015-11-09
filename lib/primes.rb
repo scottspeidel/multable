@@ -1,4 +1,5 @@
 module Primes
+  
   def self.generate(n,algorithm)
     return [] if n < 1
     potential_prime = 2
