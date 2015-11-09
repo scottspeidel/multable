@@ -6,7 +6,7 @@ describe Primes, "#generate" do
     expect(Primes.generate(0,:sieve)).to eq []
   end
 
-  it "should return the first thousand primes" do
+  it "should return the first prime" do
     expect(Primes.generate(1,:sieve)).to eq Prime.take(1)
   end
 
