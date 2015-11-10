@@ -65,5 +65,7 @@ need to calculate this based on:
 
 To verify your estimates, it may be useful to run a [memory profiler](https://github.com/SamSaffron/memory_profiler) to measure it directly. 
 
+One approach to addressing memory issues would be to break the table generation down into smaller steps. For example, only keep the factors in memory at generate all the other rows from them. This would only require holding the *n* elements. 
+
 
  
